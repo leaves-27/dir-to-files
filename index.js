@@ -5,7 +5,6 @@ var fs = require('fs')
  * @param path 路径
  *
  */
-
 function getFileList(path) {
   var filesList = [];
   readFile(path, filesList);
