@@ -6,7 +6,7 @@ var fs = require('fs')
  *
  */
 
-function geFileList(path) {
+function getFileList(path) {
   var filesList = [];
   readFile(path, filesList);
   return filesList;
@@ -40,5 +40,5 @@ function writeFile(fileName, data) {
 }
 
 module.exports = {
-  geFileList: geFileList
+  getFileList: getFileList
 }
