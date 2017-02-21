@@ -1,7 +1,7 @@
 {
   "name": "dir-to-files",
   "version": "1.0.1",
-  "description": "",
+  "description": "用于递归输出特定目录下的所有文件信息",
   "main": "index.js",
   "author": "leaves-27",
   "license": "ISC"
